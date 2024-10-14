@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/Users/jixua002/Library/CloudStorage/OneDrive-Osloskolen/IM1C/KP/VSC/Rotating_Gallery/index.html"
+        }
+    ]
+}
