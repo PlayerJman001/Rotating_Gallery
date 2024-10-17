@@ -1,13 +1,13 @@
 body
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    height: 100vh;
-    justify-content: center;
-    background-color: black;
-}
+        height: 100vh;
+        justify-content: center;
+        background-color: black;
+    }
 
 .image-container
     {
@@ -17,4 +17,13 @@ body
         transform: perspective(1000px) rotateY(0deg);
         transition: transform 0.7s;
         position: relative;
+    }
+
+.image-container span
+    {  
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+        top: 0;
+        left: 0;
+        width: 80%;
+        position: absolute;
     }
