@@ -27,3 +27,16 @@ body
         width: 80%;
         position: absolute;
     }
+.image-container span img
+    {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+.btn-container
+    {
+        width: 80%;
+        position: relative;
+    }
