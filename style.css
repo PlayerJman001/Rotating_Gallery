@@ -6,7 +6,8 @@ body
 
         height: 100vh;
         justify-content: center;
-        background-color: black;
+        background-image: url("https://i.ibb.co/1T58Hp2/Persona-menu-2.png");
+        background-size: 100% 100%;
     }
 
 .image-container
@@ -23,8 +24,8 @@ body
     {  
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
         top: 0;
-        left: 0;
-        width: 80%;
+        left: -5vh;
+        width: 150%;
         position: absolute;
     }
 .image-container span img
