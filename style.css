@@ -28,10 +28,38 @@ body
         width: 150%;
         position: absolute;
     }
+
 .image-container span img
     {
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
+    }
+
+.btn
+    {
+        position: absolute;
+        bottom: -80px;
+        background-color: slateblue;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+.btn:hover
+    {
+            filter: brightness(1.5);
+    }
+      
+#Left
+    {
+        left: 20%;
+    }
+      
+#Right
+    {
+        right: 20%;
     }
