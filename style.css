@@ -50,8 +50,8 @@ h1
     {
         position: absolute;
         bottom: 130px;
-        background-color: #75FEFD;
-        color: black;
+        background-color: #3592EB;
+        color: white;
         padding: 10px 15px;
         border: none;
         border-radius: 5px;
@@ -63,6 +63,7 @@ h1
 .btn:hover
     {
         filter: brightness(1.5);
+        color: #FF83F1;
     }
       
 #left
