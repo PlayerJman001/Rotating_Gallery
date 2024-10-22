@@ -10,6 +10,15 @@ body
         background-size: 100% 100%;
     }
 
+h1
+    {
+        color: white;
+        position: relative;
+        top: -70px;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
 .image-container
     {
         width: 200px;
@@ -24,7 +33,7 @@ body
     {  
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
         top: 0;
-        left: -5vh;
+        left: -7vh;
         width: 150%;
         position: absolute;
     }
@@ -40,13 +49,14 @@ body
 .btn
     {
         position: absolute;
-        bottom: -80px;
-        background-color: slateblue;
-        color: white;
+        bottom: 130px;
+        background-color: #75FEFD;
+        color: black;
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
+        font-weight: bold;
       }
       
 .btn:hover
@@ -54,12 +64,12 @@ body
         filter: brightness(1.5);
     }
       
-#Left
+#left
     {
-        left: 20%;
+        left: 32%;
     }
       
-#Right
+#right
     {
-        right: 20%;
+        right: 32%;
     }
