@@ -52,7 +52,7 @@ h1
         bottom: 130px;
         background-color: #75FEFD;
         color: black;
-        padding: 10px 20px;
+        padding: 10px 15px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
@@ -67,10 +67,10 @@ h1
       
 #left
     {
-        left: 32%;
+        left: 34%;
     }
       
 #right
     {
-        right: 32%;
+        right: 34%;
     }
